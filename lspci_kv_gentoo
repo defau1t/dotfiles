@@ -1,0 +1,164 @@
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers (rev 07)
+	Subsystem: Razer USA Ltd. Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: <access denied>
+	Kernel driver in use: skl_uncore
+
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 07) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000e000-0000efff [size=4K]
+	Memory behind bridge: de000000-df0fffff [size=17M]
+	Prefetchable memory behind bridge: 00000000b0000000-00000000c1ffffff [size=288M]
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 530 (rev 06) (prog-if 00 [VGA controller])
+	DeviceName:  Onboard IGD
+	Subsystem: Razer USA Ltd. HD Graphics 530
+	Flags: bus master, fast devsel, latency 0, IRQ 120
+	Memory at dd000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at 70000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at f000 [size=64]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: i915
+
+00:08.0 System peripheral: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
+	Subsystem: Razer USA Ltd. Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
+	Flags: fast devsel, IRQ 255
+	Memory at df12e000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: <access denied>
+
+00:14.0 USB controller: Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller (rev 31) (prog-if 30 [XHCI])
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 123
+	Memory at df110000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+
+00:14.2 Signal processing controller: Intel Corporation 100 Series/C230 Series Chipset Family Thermal Subsystem (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family Thermal Subsystem
+	Flags: fast devsel, IRQ 18
+	Memory at df12d000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel_pch_thermal
+	Kernel modules: intel_pch_thermal
+
+00:15.0 Signal processing controller: Intel Corporation 100 Series/C230 Series Chipset Family Serial IO I2C Controller #0 (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family Serial IO I2C Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at df12c000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+
+00:15.1 Signal processing controller: Intel Corporation 100 Series/C230 Series Chipset Family Serial IO I2C Controller #1 (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family Serial IO I2C Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at df12b000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+
+00:16.0 Communication controller: Intel Corporation 100 Series/C230 Series Chipset Family MEI Controller #1 (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family MEI Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 121
+	Memory at df12a000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+
+00:1c.0 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #1 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=02, subordinate=3a, sec-latency=0
+	I/O behind bridge: 00002000-00002fff [size=4K]
+	Memory behind bridge: c4000000-dc5fffff [size=390M]
+	Prefetchable memory behind bridge: 0000000080000000-00000000a1ffffff [size=544M]
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1c.5 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #6 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Bus: primary=00, secondary=3b, subordinate=3b, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: df200000-df3fffff [size=2M]
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1d.0 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #9 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=3c, subordinate=3c, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: None
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1d.4 PCI bridge: Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #13 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=3d, subordinate=3d, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff [size=4K]
+	Memory behind bridge: df400000-df4fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1e.0 Signal processing controller: Intel Corporation 100 Series/C230 Series Chipset Family Serial IO UART #0 (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family Serial IO UART
+	Flags: bus master, fast devsel, latency 0, IRQ 20
+	Memory at df129000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+
+00:1f.0 ISA bridge: Intel Corporation HM170 Chipset LPC/eSPI Controller (rev 31)
+	Subsystem: Razer USA Ltd. HM170 Chipset LPC/eSPI Controller
+	Flags: bus master, medium devsel, latency 0
+
+00:1f.2 Memory controller: Intel Corporation 100 Series/C230 Series Chipset Family Power Management Controller (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family Power Management Controller
+	Flags: fast devsel
+	Memory at df124000 (32-bit, non-prefetchable) [disabled] [size=16K]
+
+00:1f.3 Audio device: Intel Corporation 100 Series/C230 Series Chipset Family HD Audio Controller (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family HD Audio Controller
+	Flags: bus master, fast devsel, latency 32, IRQ 122
+	Memory at df120000 (64-bit, non-prefetchable) [size=16K]
+	Memory at df100000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1f.4 SMBus: Intel Corporation 100 Series/C230 Series Chipset Family SMBus (rev 31)
+	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family SMBus
+	Flags: medium devsel, IRQ 16
+	Memory at df128000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at f040 [size=32]
+	Kernel driver in use: i801_smbus
+
+01:00.0 3D controller: NVIDIA Corporation GM204M [GeForce GTX 970M] (rev a1)
+	Subsystem: Razer USA Ltd. GM204M [GeForce GTX 970M]
+	Flags: bus master, fast devsel, latency 0, IRQ 133
+	Memory at de000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at b0000000 (64-bit, prefetchable) [size=256M]
+	Memory at c0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at e000 [size=128]
+	Expansion ROM at df000000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: nouveau
+	Kernel modules: nouveau, nvidia_drm, nvidia
+
+3b:00.0 Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+	Subsystem: Bigfoot Networks, Inc. QCA6174 802.11ac Wireless Network Adapter
+	Flags: bus master, fast devsel, latency 0, IRQ 132
+	Memory at df200000 (64-bit, non-prefetchable) [size=2M]
+	Capabilities: <access denied>
+	Kernel driver in use: ath10k_pci
+	Kernel modules: ath10k_pci
+
+3d:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM951/PM951 (rev 01) (prog-if 02 [NVM Express])
+	Subsystem: Samsung Electronics Co Ltd NVMe SSD Controller SM951/PM951
+	Flags: bus master, fast devsel, latency 0, IRQ 16, NUMA node 0
+	Memory at df400000 (64-bit, non-prefetchable) [size=16K]
+	I/O ports at d000 [size=256]
+	Capabilities: <access denied>
+	Kernel driver in use: nvme
+
