@@ -1,0 +1,36 @@
+Module                  Size  Used by
+snd_hda_codec_hdmi     57344  1
+xt_nat                 16384  0
+xt_mark                16384  0
+xt_addrtype            16384  0
+xt_LOG                 16384  0
+iptable_nat            16384  0
+ipt_MASQUERADE         16384  0
+wmi_bmof               16384  0
+hid_rmi                16384  0
+intel_rapl             28672  0
+intel_pmc_core         20480  0
+sil164                 16384  0
+ch7006                 28672  0
+snd_hda_codec_realtek    94208  1
+snd_hda_codec_generic    77824  1 snd_hda_codec_realtek
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       20480  0
+coretemp               16384  0
+snd_hda_intel          40960  3
+kvm_intel             196608  0
+snd_hda_codec         126976  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
+kvm                   626688  1 kvm_intel
+nouveau              2052096  2
+ath10k_pci             45056  0
+snd_hwdep              16384  1 snd_hda_codec
+irqbypass              16384  1 kvm
+i2c_designware_platform    16384  0
+ath10k_core           356352  1 ath10k_pci
+intel_wmi_thunderbolt    16384  0
+snd_hda_core           73728  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+ttm                    90112  1 nouveau
+i2c_designware_core    20480  1 i2c_designware_platform
+ath                    32768  1 ath10k_core
+intel_pch_thermal      16384  0
+i2c_hid                24576  0
