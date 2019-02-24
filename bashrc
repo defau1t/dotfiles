@@ -14,11 +14,10 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
 # Put your fun stuff here.
-export XKB_DEFAULT_LAYOUT=dvorak
-export EDITOR=/usr/bin/vim
+eval $(thefuck --alias)
 
 if [ "$TERM" != "linux" ]; then
 	source ~/pureline/pureline ~/.pureline.conf
+	alias vim=vi
 fi
