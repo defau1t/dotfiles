@@ -23,6 +23,11 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vimwiki'
 Plugin 'vis'
+Plugin 'asmx86'
+Plugin 'asmx86_64'
+Plugin 'dylanaraps/wal.vim'
+Plugin 'junegunn/goyo.vim'
+Plugin 'xuhdev/vim-latex-live-preview'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -99,6 +104,14 @@ nmap <silent> <A-Right> :wincmd l<CR>
 inoremap jk <ESC>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => LLP Settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Set zathura to our pdf viewer
+let g:livepreview_previewer = 'zathura'
+
+" LLPStartPreview starts the previewer
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
@@ -157,7 +170,7 @@ set mat=2
 set foldcolumn=1
 
 " Set line numbers
-set number
+set number relativenumber
 
 " Allow the mouse to be used in the window. Hold shift to get normal mouse
 " functionality
@@ -175,7 +188,7 @@ set virtualedit=onemore
 syntax enable
 
 try
-	colorscheme desert
+	colorscheme wal
 catch
 endtry
 
