@@ -16,13 +16,14 @@
 00:02.0 VGA compatible controller: Intel Corporation HD Graphics 530 (rev 06) (prog-if 00 [VGA controller])
 	DeviceName:  Onboard IGD
 	Subsystem: Razer USA Ltd. HD Graphics 530
-	Flags: bus master, fast devsel, latency 0, IRQ 120
+	Flags: bus master, fast devsel, latency 0, IRQ 131
 	Memory at dd000000 (64-bit, non-prefetchable) [size=16M]
 	Memory at 70000000 (64-bit, prefetchable) [size=256M]
 	I/O ports at f000 [size=64]
 	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
 	Capabilities: <access denied>
 	Kernel driver in use: i915
+	Kernel modules: i915
 
 00:08.0 System peripheral: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
 	Subsystem: Razer USA Ltd. Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
@@ -32,7 +33,7 @@
 
 00:14.0 USB controller: Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller (rev 31) (prog-if 30 [XHCI])
 	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller
-	Flags: bus master, medium devsel, latency 0, IRQ 123
+	Flags: bus master, medium devsel, latency 0, IRQ 122
 	Memory at df110000 (64-bit, non-prefetchable) [size=64K]
 	Capabilities: <access denied>
 	Kernel driver in use: xhci_hcd
@@ -61,7 +62,7 @@
 
 00:16.0 Communication controller: Intel Corporation 100 Series/C230 Series Chipset Family MEI Controller #1 (rev 31)
 	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family MEI Controller
-	Flags: bus master, fast devsel, latency 0, IRQ 121
+	Flags: bus master, fast devsel, latency 0, IRQ 120
 	Memory at df12a000 (64-bit, non-prefetchable) [size=4K]
 	Capabilities: <access denied>
 	Kernel driver in use: mei_me
@@ -120,7 +121,7 @@
 
 00:1f.3 Audio device: Intel Corporation 100 Series/C230 Series Chipset Family HD Audio Controller (rev 31)
 	Subsystem: Razer USA Ltd. 100 Series/C230 Series Chipset Family HD Audio Controller
-	Flags: bus master, fast devsel, latency 32, IRQ 122
+	Flags: bus master, fast devsel, latency 32, IRQ 134
 	Memory at df120000 (64-bit, non-prefetchable) [size=16K]
 	Memory at df100000 (64-bit, non-prefetchable) [size=64K]
 	Capabilities: <access denied>
@@ -144,7 +145,7 @@
 	Expansion ROM at df000000 [disabled] [size=512K]
 	Capabilities: <access denied>
 	Kernel driver in use: nouveau
-	Kernel modules: nouveau, nvidia_drm, nvidia
+	Kernel modules: nouveau
 
 3b:00.0 Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 	Subsystem: Bigfoot Networks, Inc. QCA6174 802.11ac Wireless Network Adapter
