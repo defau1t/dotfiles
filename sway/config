@@ -22,7 +22,7 @@ output eDP-1 scale 1.75
 ################################################################################
 
 include "$HOME/.cache/wal/colors-sway"
-output * bg $wallpaper fill
+output * bg "$wallpaper" fill
 client.focused $color0 $background $foreground $color7 $color1
 
 ################################################################################
@@ -42,10 +42,10 @@ input "1739:24385:Synaptics_TM2438-005" {
 exec --no-startup-id pulseaudio -D
 exec --no-startup-id waybar
 exec swayidle \
-    timeout 250 'notify-send "Lock" "Locking screen in 50 seconds...' \
+    timeout 250 'notify-send "Lock" "Locking screen in 50 seconds..."' \
     timeout 300 'swaylock -c 000000' \
     timeout 600 'swaymsg "output * dpms off"' \
-       resume 'swaymsg "output * dpms on"' \
+       resume 'swaymsg "output * dpms on"; makoctl dismiss' \
     before-sleep 'swaylock -c 000000'
 
 ### Titlebar things
@@ -133,7 +133,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 bindsym $mod+bracketleft exec makoctl dismiss
 #bindsym $mod+Shift+bracketleft
 
-#bindsym $mod+bracketright
+bindsym $mod+bracketright exec grim -g "`slurp`" ~/screenshot.png
 #bindsym $mod+Shift+bracketright
 
 ################################################################################
