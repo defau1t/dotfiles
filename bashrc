@@ -18,6 +18,7 @@ fi
 eval $(thefuck --alias)
 
 if [ "$TERM" != "linux" ]; then
+	export PATH=/home/defau1t/.bin:$PATH
 	source ~/pureline/pureline ~/.pureline.conf
 	alias vim=vi
 fi
