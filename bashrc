@@ -15,10 +15,13 @@ if [[ $- != *i* ]] ; then
 fi
 
 # Put your fun stuff here.
+stty -ixon
+shopt -s autocd
 eval $(thefuck --alias)
+export HISTTIMEFORMAT="%d/%m/%y %T "
 
 if [ "$TERM" != "linux" ]; then
 	export PATH=/home/defau1t/.bin:$PATH
 	source ~/pureline/pureline ~/.pureline.conf
-	alias vim=vi
+	source ~/.bash_aliases
 fi
