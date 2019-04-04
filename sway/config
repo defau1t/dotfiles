@@ -131,7 +131,7 @@ bindsym $mod+0 workspace 10
 bindsym $mod+Shift+0 move container to workspace 10
 
 bindsym $mod+bracketleft exec makoctl dismiss
-#bindsym $mod+Shift+bracketleft
+bindsym $mod+Shift+bracketleft exec makoctl dismiss --all
 
 bindsym $mod+bracketright exec grim -g "`slurp`" ~/screenshot.png
 #bindsym $mod+Shift+bracketright
