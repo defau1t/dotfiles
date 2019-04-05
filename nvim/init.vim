@@ -20,14 +20,15 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'ervandew/supertab'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
 Plugin 'scrooloose/nerdtree'
-Plugin 'vimwiki'
+Plugin 'vimwiki/vimwiki'
 Plugin 'vis'
-Plugin 'asmx86'
-Plugin 'asmx86_64'
 Plugin 'dylanaraps/wal.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'tpope/vim-fugitive'
+Plugin 'zah/nim.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -57,10 +58,6 @@ set ffs=unix,dos,mac
 " Sets how many lines of history VIM has to remember
 set history=700
 
-" Enable filetype plugins
-filetype plugin on
-filetype indent on
-
 " Set to auto read when a file is changed from the outside
 set autoread
 
@@ -71,7 +68,7 @@ set noswapfile
 
 " No annoying sound on errors
 set noerrorbells
-set novisualbell
+set visualbell
 set t_vb=
 set tm=500
 
@@ -299,10 +296,10 @@ nnoremap <c-l> <c-w>l
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ARROW KEYS ARE UNACCEPTABLE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <Left> <Nop>
-map <Right> <Nop>
-map <Up> <Nop>
-map <Down> <Nop>
+"map <Left> <Nop>
+"map <Right> <Nop>
+"map <Up> <Nop>
+"map <Down> <Nop>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic
