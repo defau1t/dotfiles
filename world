@@ -20,7 +20,6 @@ app-misc/ranger
 app-misc/screen
 app-misc/screenfetch
 app-office/calcurse
-app-office/libreoffice-bin
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/fquery
@@ -46,6 +45,7 @@ dev-java/openjdk
 dev-java/sbt-bin
 dev-lang/nim
 dev-lang/ruby
+dev-lang/spidermonkey
 dev-libs/apr-util
 dev-libs/efl
 dev-libs/light
@@ -70,7 +70,6 @@ dev-util/strace
 dev-util/valgrind
 dev-util/yacc
 dev-vcs/git
-dev-vcs/subversion
 games-misc/nyancat
 games-strategy/xbattleai
 games-util/steam-launcher
@@ -138,6 +137,7 @@ sys-apps/sandbox
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-auth/elogind
+sys-auth/polkit
 sys-block/parted
 sys-boot/grub:2
 sys-devel/bison
