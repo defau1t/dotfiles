@@ -43,10 +43,10 @@ exec --no-startup-id pulseaudio -D
 exec --no-startup-id waybar
 exec swayidle \
     timeout 250 'notify-send "Lock" "Locking screen in 50 seconds..."' \
-    timeout 300 'swaylock -c 000000' \
+    timeout 300 'swaylock -i /home/defau1t/Pictures/lockscreen.jpeg -c 000000' \
     timeout 600 'swaymsg "output * dpms off"' \
        resume 'swaymsg "output * dpms on"; makoctl dismiss' \
-    before-sleep 'swaylock -c 000000'
+    before-sleep 'swaylock -i /home/defau1t/Pictures/lockscreen.jpeg -c 000000'
 
 ### Titlebar things
 font Hack 12px
@@ -97,7 +97,7 @@ bindsym XF86monBrightnessDown exec light -U 10
 # `1234567890[] row                                                            #
 ################################################################################
 
-bindsym $mod+grave exec swaylock -c 000000
+bindsym $mod+grave exec swaylock -i /home/defau1t/Pictures/lockscreen.jpeg -c 000000
 #bindsym $mod+Shift+grave
 
 bindsym $mod+1 workspace 1
