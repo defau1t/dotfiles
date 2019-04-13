@@ -18,7 +18,6 @@ app-laptop/laptop-mode-tools
 app-misc/byobu
 app-misc/ranger
 app-misc/screen
-app-misc/screenfetch
 app-office/calcurse
 app-portage/cpuid2cpuflags
 app-portage/eix
@@ -39,8 +38,7 @@ app-text/zathura-pdf-poppler
 app-text/zathura-ps
 dev-db/pgadmin4
 dev-db/postgresql
-dev-dotnet/dotnetcore-sdk-bin
-dev-embedded/u-boot-tools
+dev-java/dbus-java
 dev-java/openjdk
 dev-java/sbt-bin
 dev-lang/nim
@@ -62,7 +60,6 @@ dev-texlive/texlive-latexextra
 dev-texlive/texlive-latexrecommended
 dev-texlive/texlive-mathscience
 dev-util/cppcheck
-dev-util/eclipse-sdk-bin
 dev-util/edb-debugger
 dev-util/gtk-update-icon-cache
 dev-util/idea-community
@@ -73,7 +70,6 @@ dev-vcs/git
 games-misc/nyancat
 games-strategy/xbattleai
 games-util/steam-launcher
-gnome-base/dconf
 gui-apps/mako
 gui-apps/slurp
 gui-apps/waybar
@@ -88,6 +84,7 @@ media-fonts/powerline-symbols
 media-fonts/symbola
 media-gfx/grim
 media-gfx/optipng
+media-gfx/qrencode
 media-gfx/sxiv
 media-libs/libpng:1.2
 media-libs/mesa
@@ -96,6 +93,7 @@ media-sound/pavucontrol
 media-sound/pulseaudio
 media-video/ffmpeg
 media-video/vlc
+net-analyzer/macchanger
 net-analyzer/nettop
 net-analyzer/ngrep
 net-analyzer/nmap
@@ -147,13 +145,13 @@ sys-devel/gdb
 sys-devel/llvmgold
 sys-fs/btrfs-progs
 sys-fs/dosfstools
+sys-fs/fuse-exfat
 sys-fs/ntfs3g
 sys-kernel/linux-firmware
 sys-libs/glibc
 sys-power/powertop
 sys-power/thermald
 sys-process/cronie
-sys-process/glances
 sys-process/htop
 sys-process/lsof
 virtual/linux-sources
@@ -172,7 +170,6 @@ x11-libs/gdk-pixbuf-loader-webp
 x11-libs/gtk+
 x11-libs/libxkbcommon
 x11-misc/dmenu
-x11-misc/i3status
 x11-misc/polybar
 x11-misc/pywal
 x11-misc/read-edid
@@ -181,4 +178,3 @@ x11-terms/alacritty
 x11-terms/cool-retro-term
 x11-themes/gentoo-xcursors
 x11-themes/xcursor-themes
-x11-wm/i3-gaps
